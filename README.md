@@ -13,13 +13,13 @@ Deploy Landing Zone foundational resources to the Azure Stack Hub environment.
 
 The repo contains nested files in several folders. 
 
-#### - data Folder
+#### DATA Folder
 * Contains the input *.csv files for this package. Each module receives its input parameters from these files and creates a map object to deploy resources based on the number of map elements. 
 
-#### - lz_modules Folder
+#### LZ_MODULES Folder
 * Contains the invidual Azure Stack Hub components for the Landing Zone. This includes Resource Groups, NSG, NSG Rules, Virtual Networks, Virtual Network Peering, Subnets, Key Vault, RBAC Policies and Storage Account.
 
-#### - lz_modules Sub Folders
+#### LZ_MODULES Sub Folders
 * These are the Azure Stack Hub components which are called individually by the "main.tf" file in the root directory. These components can be used individually to deploy singular resoures, but the recommended method is to deploy everyting through the "main.tf" file. 
 
 ### Technologies
@@ -56,8 +56,8 @@ C:\Users\user> terraform -v
 #### Linux
 
 1. Download the Terraform binary for Linux from the above link:
-* [Terraform](https://www.terraform.io/downloads.html)
-2. List out the locations in your **PATH**.
+
+2. List out the locations in your **PATH** directory.
 ```sh 
 $ echo $PATH
 ```
@@ -118,18 +118,7 @@ Please visit the link below for basic commands in Terraform:
 
 
 
-
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+## Helpful Tools
+* [Visual Studio Code](https://code.visualstudio.com/)
 
